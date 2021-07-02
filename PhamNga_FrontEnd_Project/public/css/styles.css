@@ -1,0 +1,244 @@
+@media(min-width: 1025px){
+*{box-sizing: border-box;}
+.container-top{
+    width: 1200px;
+    height: 80px;
+    background-color: #fff;
+    margin: 0 auto;
+    text-align: center;
+}/* căn chỉnh ở giữa */ 
+.container-miđdle{
+    background-color: #3f3f3f;
+    width: 1450px;
+    height: 50px;
+    margin: 0 auto;
+}
+.collapse{ 
+    font-size: small;
+    margin: 0 auto;
+    display: inline-flex;
+    margin-top: 10px ;
+    margin-right: 130px;
+    margin-left: 130px;
+    justify-content:space-between;
+} /*Cho các chữ nhỏ lại*/ 
+.mail-icon a{
+    color: #fff;
+}
+.mid-header{
+    width: 1200px;
+    background-size: 259px 194px;
+    position: relative;
+}
+.header-conten{ 
+    width: 1200px;
+    background-color: #fff;
+    margin: 0 auto;
+    
+}
+.header-conten h4{
+    border-bottom: 1px solid #d8d8d8;
+    margin-top: 20px;
+}
+.header-bottom{
+    width: 100%;
+}
+.col-3 img {
+    width: 296px; 
+    height: 410px;
+}
+.btn{
+    background: #3f3f3f;
+    padding: 6px 10px ;
+    border: 0px;
+}
+.form-control{
+    width: 500px;
+    height: 35px ;
+}/* Độ dài của thanh search */
+.search btn :hover{
+    color:red;
+}
+.search{
+   display: flex;
+   justify-content: center;
+   margin-right: 200px;
+}
+.get-icon{
+    display: inline;
+    display: flex;
+    justify-content:flex-end ;
+}
+.get-icon a{
+    padding: 30px 30px;
+}
+.the-icon1 a,.the-icon2 a,.the-icon3 a{
+    color: #3f3f3f;
+}
+.the-icon1 a:hover,.the-icon2 a:hover,.the-icon3 a:hover{
+    color: #fff;
+    background-color: #3f3f3f;
+}
+.get-icon a:hover{
+background-color: #3f3f3f;
+color: #ffff;
+}
+.avaz a{
+    margin-left: 50px;
+    font-size: 2rem;
+}
+.product{
+    margin-top: 10px;
+}
+.product-name{
+    text-align: center;
+    font-family: Georgia ;
+    color: #3f3f3f;
+    margin-top: 15px;
+}
+.product-price{
+    color: #FE7522;
+    font-family: Georgia;
+    text-align: center;
+}
+.Collection{
+    margin-top: 30px;
+    padding-bottom: 70px;
+}
+.Collection i{
+    font-size: small;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: 'Franklin Gothic Medium';
+    
+}
+.Comment{
+    border-bottom: 1px solid #d8d8d8;
+    border-top: 1px solid #d8d8d8;
+    margin-top: 20px;
+}
+.btn-showmore{
+    margin-top: 50px;
+}
+.btn-show:hover{
+    background-color: #3f3f3f;
+    color: #fff;
+}
+.Discount{
+    background-color: #f5f5f5;
+    text-align: center;
+    padding: 30px;
+    margin-top: 50px;
+}
+.Discount i{
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 20px;
+}
+.btn-shop button{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.clients-say{
+    background-image: url(../images/backgroud.jpg);
+    height: 350px;
+    text-align: center;
+    color: #f5f5f5;
+    margin-top: 50px;
+}
+.clients-say h1{
+    padding-top: 50px;
+    font-weight: 700;
+}
+.clients-say h6{
+    padding-top: 40px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+.clients-say h5{
+    font-size: small;
+    padding-top: 15px;
+}
+#avatar{
+    border-radius: 50%;
+}
+.content h4{
+    padding-top: 50px;
+}
+.brand{
+    background-color: #f5f5f5;
+    height: 100px;
+    text-align: center;
+    padding-top: 22px;
+}
+.brand-logo img{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.footer{
+    background-color: #3f3f3f;
+}
+.content-foot{
+    color:#d8d8d8;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+.logo-foot img{
+    margin-top: 60px;
+    margin-bottom: 40px;
+    width: 80px;
+    height: 20px ;
+}
+.logo-foot h5{
+    color: #fff;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    font-family: Arial;
+}
+.logo-foot p{
+    font-size: small;
+    font-family: Arial;
+}
+.logo-foot h6{
+    font-size: small;
+    margin-top: 18px;
+    font-family: Arial;
+}
+.contact-select i{
+    margin-top: 20px;
+    font-size: small;
+}
+.btn-showmore{
+    text-align: center;
+    color: #d8d8d8;
+}
+.btn-showmore button{
+    top: 50%;
+    width: 180px;
+    height: 40px;
+    background-color: #fff;
+    font-family: Arial;
+}
+  .total-icon{
+    margin-top: 50px;
+    display:flex;
+  }
+  .total-icon i{
+      margin-left: 10px;
+  }
+  .snstheme i{
+      font-size: small;
+      color: #fff;
+  }
+  .snstheme a{
+      font-size: small;
+      color: #FE7522;
+  }
+  .snstheme{
+      margin-left: 120px;
+      margin-right: 120px;
+  }
+  .snstheme img{
+      float: right;
+  }
+}
